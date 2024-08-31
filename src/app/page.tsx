@@ -1,4 +1,4 @@
-\"use client";
+"use client";
 import Controller from "@components/Controller";
 import { Detail } from "@components/Detail";
 import { Footer } from "@components/Footer";
@@ -78,7 +78,7 @@ export default function Home() {
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2024" fullName="Natchanan Phattarapraditkul" studentId="660612143" />
+      <Footer year="2024" fullName="Patchanop Rodklueng" studentId="660612151" />
     </div>
   );
 }

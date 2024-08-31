@@ -8,7 +8,7 @@ export const Detail = () => {
   return (
     <div>
       <p className="text-center" style={{ color: theme.fgColor }}>
-        {theme.name === "dark" ? lang.detail.darkActivated : lang.detail.lightActivated}
+        {theme.name == "light" ? lang.detail.lightActivated : lang.detail.darkActivated}
         {/* tip: Get information from "theme" variable to determine 
     which theme is currently selected */}
       </p>
